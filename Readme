@@ -1,52 +1,50 @@
-# 42 Singapore: The C Journey 🇸🇬
+# 42 Singapore: Systems Engineering & C 🇸🇬
 
-> "Learning C has been about more than just syntax; it is about building the discipline to understand how things work under the hood."
+> **Current Focus:** transitioning from High-Level Analytics (Python/R) to Low-Level Engineering (C).
 
-## 👋 About This Project
-Welcome to my digital notebook, this repository documents my progression through the **42 Singapore** curriculum. 
+## 📖 About This Repository
+This repository contains my coursework and solutions for the **42 Singapore** curriculum. I am using this journey to master the "black box" of computer science—understanding how memory, compilation, and algorithms work at the hardware abstraction layer.
 
-It serves two purposes:
-1.  **Technical Archive:** A collection of my solutions, refactored code, and study notes.
-2.  **Growth Tracker:** A timeline of moving from low-code solutions to low-level memory management.
+## 📂 Project Directory
 
-## 📂 Repository Structure
+### 1. 🏊 The Piscine (March 2025)
+*Location: `/Piscine (Mar 2025)`*
+Code developed during the intensive 26-day selection bootcamp. These projects were built from scratch using only `write`, `malloc`, and `free`.
 
-### 🏊 Piscine (Mar 2025 to April 2025)
-*The intense 26-day C programming bootcamp.*
-| Project | Topic | Status | Focus |
-| :--- | :--- | :--- | :--- |
-| **C00** | Basic Syntax | ✅ Done | `write`, variables, loops |
-| **C01** | Pointers | ✅ Done | Pointers, memory addresses, swapping |
-| **C02** | Strings | ✅ Done | String manipulation, ASCII math |
-| **C03** | String Functions | ✅ Done | Recreating `libc` string functions |
-| **C04** | Parsing | ✅ Done | `atoi`, base conversion, parsing inputs |
-| **C05** | Math | ✅ Done | Iterative/recursive factorials, sqrts |
-| **C06** | Params | ✅ Done | `argc`, `argv`, command line arguments |
-| **C07** | Memory Alloc | ✅ Done | `malloc`, `free`, dynamic arrays |
-| **C08** | Headers | 🚧 In Progress | Structures, header files, defines |
-| **Shell**| Bash/Unix | ✅ Done | Command line navigation & permissions |
+| Project | Key Concepts Mastered | Status |
+| :--- | :--- | :--- |
+| **C00** | **Basic Syntax:** `write` syscall, char/int manipulation, loops. | ✅ Done |
+| **C01** | **Pointers:** Memory addresses, dereferencing, swapping values, pointer arithmetic. | ✅ Done |
+| **C02** | **Strings:** Raw string manipulation, ASCII arithmetic, buffer handling. | ✅ Done |
+| **C03** | **String Lib:** Recreating `libc` functions (`strcat`, `strstr`, `strncat`). | ✅ Done |
+| **C04** | **Parsing:** `atoi` implementation, base conversion (Hex/Binary), recursive parsing. | ✅ Done |
+| **C05** | **Algorithms:** Iterative vs Recursive factorials, square roots, prime finding. | ✅ Done |
+| **C06** | **CLI Args:** Handling `argc` and `argv`, program input validation. | ✅ Done |
+| **C07** | **Memory Allocation:** `malloc`, `free`, creating dynamic arrays, memory leaks. | ✅ Done |
+| **C08** | **Headers & Structs:** Preprocessor macros, `#ifndef` protection, typedefs. | 🚧 In Progress |
+| **Shell**| **Unix/Bash:** File permissions, piping, grep/awk, environment variables. | ✅ Done |
 
-### 🎓 42 Cursus (Circle 1 & 2) - (June 2025 to Sept 2025) *Upcoming*
-*The Core Curriculum. Deepening the understanding of C.*
-- [ ] **Libft**: Creating my very own standard library.
-- [ ] **ft_printf**: Recreating the famous printf function.
-- [ ] **get_next_line**: Reading a line from a file descriptor.
-- [ ] **Born2beroot**: System administration and virtualization.
-- [ ] **Push_swap**: Sorting algorithms and complexity analysis.
-
-### ⚔️ Exam Rank Practice
-My personal sandbox for practicing exam questions under time constraints.
-* **Level 1:** Basic algorithms (FizzBuzz, searches).
-* **Level 2:** Bitwise operations, math.
+### 2. ⚔️ Exam Rank 02 Preparation
+*Location: `/42 Exam Rank 02`*
+This folder contains my practice solutions for the strict 42 Exams. These are algorithmic challenges that must be solved without external libraries in a time-constrained environment.
+* **Level 1:** String searches, character swapping, FizzBuzz.
+* **Level 2:** Bitwise operations, math implementation, `atoi` / `itoa`.
 * **Level 3:** [In Progress]
 * **Level 4:** [In Progress]
 
 ---
 
-## 🛠️ How to Test
-To test any specific file, I typically compile using `gcc` with the strict 42 flags:
+## 🏗️ Upcoming Projects to be committed to Github
+- [ ] **Libft:** Building my own standard library to use in future C projects.
+- [ ] **ft_printf:** Recreating the logic behind variable argument lists.
+- [ ] **get_next_line:** Reading a line from a file descriptor using static variables/buffers.
+- [ ] **Born2beroot:** Virtualization, LVM partitions, and SSH configuration.
 
-```bash
-# Example compilation
-gcc -Wall -Wextra -Werror filename.c -o output_name
-./output_name
+## 🛠️ Technical Constraints
+* **Language:** C (C99 standard).
+* **Style:** Strict adherence to **Norminette** (42's coding standard).
+* **Forbidden Functions:** No standard library functions allowed (except `write`, `malloc`, `free`, `read`) unless specified.
+* **Memory Management:** Zero tolerance for memory leaks (managed via manual heap allocation).
+
+---
+*Note: This code is for educational portfolio purposes. If you are a 42 Student, please do not copy/paste. The struggle to build these from scratch is the only way to pass the Exam.*
