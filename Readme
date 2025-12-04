@@ -1,19 +1,52 @@
-# 42 Exam Rank 02 — Study Repository 📚
+# 42 Singapore: The C Journey 🇸🇬
 
-### About This Project
-Welcome to my digital notebook. This repository documents my journey through the C curriculum at 42 Singapore. 
+> "Learning C has been about more than just syntax; it is about building the discipline to understand how things work under the hood."
 
-Learning C has been about more than just syntax; it is about building the discipline to understand how things work under the hood. This collection represents my practice solutions for **Exam Rank 02**, broken down by difficulty levels.
+## 👋 About This Project
+Welcome to my digital notebook, this repository documents my progression through the **42 Singapore** curriculum. 
 
-### 📂 Repository Structure
-* **Level 1:** Basic algorithms (FizzBuzz, string searches, swaps).
-* **Level 2:** Intermediate challenges (Bitwise operations, math, string manipulation).
+It serves two purposes:
+1.  **Technical Archive:** A collection of my solutions, refactored code, and study notes.
+2.  **Growth Tracker:** A timeline of moving from low-code solutions to low-level memory management.
+
+## 📂 Repository Structure
+
+### 🏊 Piscine (Mar 2025 to April 2025)
+*The intense 26-day C programming bootcamp.*
+| Project | Topic | Status | Focus |
+| :--- | :--- | :--- | :--- |
+| **C00** | Basic Syntax | ✅ Done | `write`, variables, loops |
+| **C01** | Pointers | ✅ Done | Pointers, memory addresses, swapping |
+| **C02** | Strings | ✅ Done | String manipulation, ASCII math |
+| **C03** | String Functions | ✅ Done | Recreating `libc` string functions |
+| **C04** | Parsing | ✅ Done | `atoi`, base conversion, parsing inputs |
+| **C05** | Math | ✅ Done | Iterative/recursive factorials, sqrts |
+| **C06** | Params | ✅ Done | `argc`, `argv`, command line arguments |
+| **C07** | Memory Alloc | ✅ Done | `malloc`, `free`, dynamic arrays |
+| **C08** | Headers | 🚧 In Progress | Structures, header files, defines |
+| **Shell**| Bash/Unix | ✅ Done | Command line navigation & permissions |
+
+### 🎓 42 Cursus (Circle 1 & 2) - (June 2025 to Sept 2025) *Upcoming*
+*The Core Curriculum. Deepening the understanding of C.*
+- [ ] **Libft**: Creating my very own standard library.
+- [ ] **ft_printf**: Recreating the famous printf function.
+- [ ] **get_next_line**: Reading a line from a file descriptor.
+- [ ] **Born2beroot**: System administration and virtualization.
+- [ ] **Push_swap**: Sorting algorithms and complexity analysis.
+
+### ⚔️ Exam Rank Practice
+My personal sandbox for practicing exam questions under time constraints.
+* **Level 1:** Basic algorithms (FizzBuzz, searches).
+* **Level 2:** Bitwise operations, math.
 * **Level 3:** [In Progress]
 * **Level 4:** [In Progress]
 
-### 🛠️ How to Test
-To test any specific file, I typically compile using `gcc` with the standard flags:
+---
+
+## 🛠️ How to Test
+To test any specific file, I typically compile using `gcc` with the strict 42 flags:
 
 ```bash
+# Example compilation
 gcc -Wall -Wextra -Werror filename.c -o output_name
 ./output_name
