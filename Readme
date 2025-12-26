@@ -7,7 +7,29 @@ This repository contains my coursework and solutions for the **42 Singapore** cu
 
 ## 📂 Project Directory
 
-### 1. 🏊 The Piscine (March 2025)
+### 1. 🚀 Core Curriculum (Circle 1)
+*The main engineering track. These projects focus on building robust, reusable libraries and understanding system-level I/O.*
+
+| Project | Description & Key Concepts | Status |
+| :--- | :--- | :--- |
+circle 0
+| **Libft** | **The Standard Library:** My first C library. I reimplemented 40+ standard C functions (e.g., `memset`, `strlcat`, `calloc`) and custom linked-list manipulation tools. This library serves as the foundation for all future C projects. | ✅ Done |
+Circle 1
+| **ft_printf** | **Variadic Functions:** A mimic of the standard `printf`. Handles variable argument lists (`va_list`) and parses format specifiers (`cspdiuxX%`) to manage standard output directly. | ✅ Done |
+| **get_next_line**| **Static Variables & File Descriptors:** Reading a line from a file descriptor efficiently, managing buffers and memory leaks across multiple function calls. | 🚧 Next Up |
+| **Born2beroot** | **Virtualization & SysAdmin:** Setting up a strict Debian server, configuring LVM partitions, SSH, UFW firewalls, and password policies. | ⏳ Pending |
+Circle 2
+| **fract-ol | **2D Graphics & Optimization:** A fractal exploration engine built with MiniLibX. It renders mathematically infinite patterns (Mandelbrot, Julia sets) in real-time. Features include infinite zoom, color shifts, and dynamic parameter adjustments using complex number arithmetic and event hooks.  | ⏳ Pending |
+
+### 2. ⚔️ Exam Rank 02 Preparation
+*Location: `/42 Exam Rank 02`*
+This folder contains my practice solutions for the strict 42 Exams. These are algorithmic challenges that must be solved without external libraries in a time-constrained environment.
+* **Level 1:** String searches, character swapping, FizzBuzz.
+* **Level 2:** Bitwise operations, math implementation, `atoi` / `itoa`.
+* **Level 3:** `ft_range`, `hidenp`, `lcm`.
+* **Level 4:** Sort list, list manipulation.
+
+### 3. 🏊 The Piscine (Selection Phase)
 *Location: `/Piscine (Mar 2025)`*
 Code developed during the intensive 26-day selection bootcamp. These projects were built from scratch using only `write`, `malloc`, and `free`.
 
@@ -21,24 +43,10 @@ Code developed during the intensive 26-day selection bootcamp. These projects we
 | **C05** | **Algorithms:** Iterative vs Recursive factorials, square roots, prime finding. | ✅ Done |
 | **C06** | **CLI Args:** Handling `argc` and `argv`, program input validation. | ✅ Done |
 | **C07** | **Memory Allocation:** `malloc`, `free`, creating dynamic arrays, memory leaks. | ✅ Done |
-| **C08** | **Headers & Structs:** Preprocessor macros, `#ifndef` protection, typedefs. | 🚧 In Progress |
-| **Shell**| **Unix/Bash:** File permissions, piping, grep/awk, environment variables. | ✅ Done |
-
-### 2. ⚔️ Exam Rank 02 Preparation
-*Location: `/42 Exam Rank 02`*
-This folder contains my practice solutions for the strict 42 Exams. These are algorithmic challenges that must be solved without external libraries in a time-constrained environment.
-* **Level 1:** String searches, character swapping, FizzBuzz.
-* **Level 2:** Bitwise operations, math implementation, `atoi` / `itoa`.
-* **Level 3:** [In Progress]
-* **Level 4:** [In Progress]
+| **C08** | **Headers & Structs:** Preprocessor macros, `#ifndef` protection, typedefs. | ✅ Done |
+| **Shell 01 and Shell 02**| **Unix/Bash:** File permissions, piping, grep/awk, environment variables. | ✅ Done |
 
 ---
-
-## 🏗️ Upcoming Projects to be committed to Github
-- [ ] **Libft:** Building my own standard library to use in future C projects.
-- [ ] **ft_printf:** Recreating the logic behind variable argument lists.
-- [ ] **get_next_line:** Reading a line from a file descriptor using static variables/buffers.
-- [ ] **Born2beroot:** Virtualization, LVM partitions, and SSH configuration.
 
 ## 🛠️ Technical Constraints
 * **Language:** C (C99 standard).
