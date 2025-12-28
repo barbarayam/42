@@ -16,10 +16,10 @@ circle 0
 | **Libft** | **The Standard Library:** My first C library. I reimplemented 40+ standard C functions (e.g., `memset`, `strlcat`, `calloc`) and custom linked-list manipulation tools. This library serves as the foundation for all future C projects. | ✅ Done |
 Circle 1
 | **ft_printf** | **Variadic Functions:** A mimic of the standard `printf`. Handles variable argument lists (`va_list`) and parses format specifiers (`cspdiuxX%`) to manage standard output directly. | ✅ Done |
-| **get_next_line**| **Static Variables & File Descriptors:** Reading a line from a file descriptor efficiently, managing buffers and memory leaks across multiple function calls. | 🚧 Next Up |
-| **Born2beroot** | **Virtualization & SysAdmin:** Setting up a strict Debian server, configuring LVM partitions, SSH, UFW firewalls, and password policies. | ⏳ Pending |
+| **get_next_line**| **Static Variables & File Descriptors:** Reading a line from a file descriptor efficiently, managing buffers and memory leaks across multiple function calls. |  ✅ Done |
+| **Born2beroot** | **Virtualization & SysAdmin:** Setting up a strict Debian server, configuring LVM partitions, SSH, UFW firewalls, and password policies. |  ✅ Done - but unable to publish |
 Circle 2
-| **fract-ol | **2D Graphics & Optimization:** A fractal exploration engine built with MiniLibX. It renders mathematically infinite patterns (Mandelbrot, Julia sets) in real-time. Features include infinite zoom, color shifts, and dynamic parameter adjustments using complex number arithmetic and event hooks.  | ⏳ Pending |
+| **fract-ol | **2D Graphics & Optimization:** A fractal exploration engine built with MiniLibX. It renders mathematically infinite patterns (Mandelbrot, Julia sets) in real-time. Features include infinite zoom, color shifts, and dynamic parameter adjustments using complex number arithmetic and event hooks.  |  ✅ Done |
 
 ### 2. ⚔️ Exam Rank 02 Preparation
 *Location: `/42 Exam Rank 02`*
