@@ -1,58 +1,58 @@
 # 42 Singapore: Systems Engineering & C 🇸🇬
 
-> **Current Focus:** transitioning from High-Level Analytics (Python/R) to Low-Level Engineering (C).
+> **Current Focus:** Transitioning from High-Level Analytics (Python/R) to Low-Level Engineering (C).
 
 ## 📖 About This Repository
-This repository contains my coursework and solutions for the **42 Singapore** curriculum. I am using this journey to master the "black box" of computer science—understanding how memory, compilation, and algorithms work at the hardware abstraction layer.
+This repository contains my coursework and solutions for the **42 Singapore** curriculum. I am using this journey to master the "black box" of computer science—understanding how memory, compilation, and algorithms work at the hardware abstraction layer. In many ways, this is my "leap into the unknown," moving from data insights to the foundational logic that powers them.
+
+---
 
 ## 📂 Project Directory
 
-### 1. 🚀 Core Curriculum (Circle 1)
-*The main engineering track. These projects focus on building robust, reusable libraries and understanding system-level I/O.*
-
-| Project | Description & Key Concepts | Status |
-| :--- | :--- | :--- |
-circle 0
-| **Libft** | **The Standard Library:** My first C library. I reimplemented 40+ standard C functions (e.g., `memset`, `strlcat`, `calloc`) and custom linked-list manipulation tools. This library serves as the foundation for all future C projects. | ✅ Done |
-Circle 1
-| **ft_printf** | **Variadic Functions:** A mimic of the standard `printf`. Handles variable argument lists (`va_list`) and parses format specifiers (`cspdiuxX%`) to manage standard output directly. | ✅ Done |
-| **get_next_line**| **Static Variables & File Descriptors:** Reading a line from a file descriptor efficiently, managing buffers and memory leaks across multiple function calls. |  ✅ Done |
-| **Born2beroot** | **Virtualization & SysAdmin:** Setting up a strict Debian server, configuring LVM partitions, SSH, UFW firewalls, and password policies. |  ✅ Done - but unable to publish |
-Circle 2
-| **fract-ol | **2D Graphics & Optimization:** A fractal exploration engine built with MiniLibX. It renders mathematically infinite patterns (Mandelbrot, Julia sets) in real-time. Features include infinite zoom, color shifts, and dynamic parameter adjustments using complex number arithmetic and event hooks.  |  ✅ Done |
-
-### 2. ⚔️ Exam Rank 02 Preparation
-*Location: `/42 Exam Rank 02`*
-This folder contains my practice solutions for the strict 42 Exams. These are algorithmic challenges that must be solved without external libraries in a time-constrained environment.
-* **Level 1:** String searches, character swapping, FizzBuzz.
-* **Level 2:** Bitwise operations, math implementation, `atoi` / `itoa`.
-* **Level 3:** `ft_range`, `hidenp`, `lcm`.
-* **Level 4:** Sort list, list manipulation.
-
-### 3. 🏊 The Piscine (Selection Phase)
-*Location: `/Piscine (Mar 2025)`*
-Code developed during the intensive 26-day selection bootcamp. These projects were built from scratch using only `write`, `malloc`, and `free`.
+### [00. The Piscine (March 2025)]
+*Location: `/Piscine (Mar 2025)`* The intensive 26-day selection bootcamp that made this journey possible. These projects were built from scratch using only `write`, `malloc`, and `free`.
 
 | Project | Key Concepts Mastered | Status |
 | :--- | :--- | :--- |
 | **C00** | **Basic Syntax:** `write` syscall, char/int manipulation, loops. | ✅ Done |
-| **C01** | **Pointers:** Memory addresses, dereferencing, swapping values, pointer arithmetic. | ✅ Done |
-| **C02** | **Strings:** Raw string manipulation, ASCII arithmetic, buffer handling. | ✅ Done |
-| **C03** | **String Lib:** Recreating `libc` functions (`strcat`, `strstr`, `strncat`). | ✅ Done |
-| **C04** | **Parsing:** `atoi` implementation, base conversion (Hex/Binary), recursive parsing. | ✅ Done |
-| **C05** | **Algorithms:** Iterative vs Recursive factorials, square roots, prime finding. | ✅ Done |
-| **C06** | **CLI Args:** Handling `argc` and `argv`, program input validation. | ✅ Done |
-| **C07** | **Memory Allocation:** `malloc`, `free`, creating dynamic arrays, memory leaks. | ✅ Done |
-| **C08** | **Headers & Structs:** Preprocessor macros, `#ifndef` protection, typedefs. | ✅ Done |
-| **Shell 01 and Shell 02**| **Unix/Bash:** File permissions, piping, grep/awk, environment variables. | ✅ Done |
+| **C01** | **Pointers:** Memory addresses, dereferencing, and pointer arithmetic. | ✅ Done |
+| **C02** | **Strings:** Raw string manipulation and buffer handling. | ✅ Done |
+| **C03** | **String Lib:** Recreating `libc` functions like `strcat` and `strstr`. | ✅ Done |
+| **C04** | **Parsing:** `atoi` implementation and recursive parsing. | ✅ Done |
+| **C05** | **Algorithms:** Iterative vs Recursive factorials and prime finding. | ✅ Done |
+| **C06** | **CLI Args:** Handling `argc` and `argv` input validation. | ✅ Done |
+| **C07** | **Memory Allocation:** Mastering `malloc` and `free`. | ✅ Done |
+| **C08** | **Headers & Structs:** Preprocessor macros and typedefs. | ✅ Done |
+| **Shell 01 & 02**| **Unix/Bash:** Permissions, piping, and environment variables. | ✅ Done |
+
+### [01. Common Core]
+*The main engineering track. These projects focus on building robust, reusable libraries and understanding system-level I/O.*
+
+#### [Circle 0 & 1: The Foundations]
+| Project | Description & Key Concepts | Status |
+| :--- | :--- | :--- |
+| **Libft** | **The Standard Library:** Reimplementing 40+ standard functions (e.g., `memset`, `calloc`). | ✅ Done |
+| **ft_printf** | **Variadic Functions:** Managing variable argument lists to mimic `printf`. | ✅ Done |
+| **get_next_line**| **Static Variables:** Reading lines from file descriptors without memory leaks. | ✅ Done |
+| **Born2beroot** | **Virtualization:** Setting up a strict Debian server with LVM, SSH, and UFW. | ✅ Done |
+
+#### [Circle 2: Complexity & Communication]
+| Project | Description & Key Concepts | Status |
+| :--- | :--- | :--- |
+| **fract-ol** | **2D Graphics:** Real-time Mandelbrot/Julia sets using complex math and MiniLibX. | ✅ Done |
+| **minitalk** | **IPC & Bitwise Logic:** Data exchange using UNIX signals (`SIGUSR1`/`SIGUSR2`). | ✅ Done |
+
+### [Exam Rank 02 Preparation]
+*Location: `/42 Exam Rank 02`* Algorithmic challenges solved under time pressure without external libraries.
+* **Level 1 & 2:** String searches, bitwise operations, and `atoi` implementation.
+* **Level 3 & 4:** Advanced math (`lcm`) and linked list manipulation.
 
 ---
 
 ## 🛠️ Technical Constraints
 * **Language:** C (C99 standard).
 * **Style:** Strict adherence to **Norminette** (42's coding standard).
-* **Forbidden Functions:** No standard library functions allowed (except `write`, `malloc`, `free`, `read`) unless specified.
-* **Memory Management:** Zero tolerance for memory leaks (managed via manual heap allocation).
+* **Memory Management:** Zero tolerance for memory leaks; manual heap management is an absolute requirement.
 
 ---
-*Note: This code is for educational portfolio purposes. If you are a 42 Student, please do not copy/paste. The struggle to build these from scratch is the only way to pass the Exam.*
+*Note: This code is for educational portfolio purposes. If you are a 42 Student, please do not copy/paste. The struggle to build these from scratch is the only way to pass the Exam. Onwards and upwards.*
